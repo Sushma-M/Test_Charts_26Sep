@@ -1,5 +1,5 @@
 var _WM_APP_PROPERTIES = {
-  "activeTheme" : "material",
+  "activeTheme" : "mellow-yellow",
   "defaultLanguage" : "en",
   "displayName" : "Test_Charts",
   "homePage" : "Main",
