@@ -1,0 +1,34 @@
+{
+  "name" : "hrdb",
+  "description" : "Queries for hrdb",
+  "queries" : [ {
+    "name" : "deptQuery",
+    "query" : "select * from DEPARTMENT where DEPT_CODE=:code",
+    "comment" : "deptquery",
+    "description" : null,
+    "nativeSql" : true,
+    "returnsSingleResult" : false,
+    "update" : false,
+    "queryParams" : [ {
+      "paramName" : "code",
+      "paramType" : "java.lang.String",
+      "testValue" : "Sales",
+      "systemParamName" : null,
+      "systemParam" : false,
+      "list" : false
+    } ],
+    "outputType" : "hrdbdeptQueryrtnType",
+    "returnTypeMetadata" : {
+      "BUDGET" : "java.lang.Integer",
+      "DEPT_CODE" : "java.lang.String",
+      "DEPT_ID" : "java.lang.Integer",
+      "LOCATION" : "java.lang.String",
+      "NAME" : "java.lang.String",
+      "Q1" : "java.lang.Integer",
+      "Q2" : "java.lang.Integer",
+      "Q3" : "java.lang.Integer",
+      "Q4" : "java.lang.Integer",
+      "TENANT_ID" : "java.lang.Integer"
+    }
+  } ]
+}
